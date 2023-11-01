@@ -41,6 +41,15 @@ body {
     height: auto;
 }
 
+.floating-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 200px;
+}
+
 .charts-container {
     background-color: #fff;
     padding: 10px 20px 10px 0; /* Padding (top, right, bottom, left) */

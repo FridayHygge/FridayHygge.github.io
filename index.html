@@ -113,54 +113,9 @@
         displayCSV();
     </script>
     
-
-    
-    <div class="container" id="cardContainer">
+    <div class="container" id="card-container">
         <!-- Cards will be generated here using JavaScript -->
     </div>
-    <script>
-        // Specify the number of items you want to generate
-        const items = 5; // Change this value as needed
-
-        // Function to generate and append cards
-        function generateCards() {
-            const cardContainer = document.getElementById("cardContainer");
-
-            for (let i = 1; i <= items; i++) {
-                const card = document.createElement("div");
-                card.className = "card";
-
-                const img = document.createElement("img");
-                // img.src = `item${i}.jpg`;
-                img.src = `./figures/logo.png`;
-                img.alt = `Item ${i}`;
-
-                const itemName = document.createElement("h2");
-                itemName.textContent = `Item ${i}`;
-
-                const itemDescription = document.createElement("p");
-                itemDescription.textContent = `Description of Item ${i}.`;
-
-                const itemPrice = document.createElement("p");
-                itemPrice.textContent = `Price: ${(i * 5).toFixed(2)} kr.`;
-
-                const addButton = document.createElement("button");
-                addButton.textContent = "Add to Cart";
-
-                card.appendChild(img);
-                card.appendChild(itemName);
-                card.appendChild(itemDescription);
-                card.appendChild(itemPrice);
-                card.appendChild(addButton);
-
-                cardContainer.appendChild(card);
-            }
-        }
-
-        // Call the function to generate cards
-        generateCards();
-    </script>
-
-
+    <script src="scripts/script.js"></script>
 </body>
 </html>
