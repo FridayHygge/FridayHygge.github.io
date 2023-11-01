@@ -1,1 +1,166 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday Hygge</title>
+    <link rel="icon" href="./figures/logo.png" type="image/x-icon">
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Papaparse inlcude to parse csv files in javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <!-- charts.js inlcude to produce plots in javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Include the external .js file -->
+    <script src="./scripts/utils.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Welcome to Friday Hygge</h1>
+    </div>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Search</a>
+    </div>
+
+    <!-- Show some plots -->
+
+    <div class="charts-container">
+        <div class="chart-container">
+            <canvas id="pieChart" class="chart-canvas"></canvas>
+        </div>
+    </div>
+    <script>
+        // Data for the pie chart
+        const pieChartData = {
+            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            datasets: [{
+                data: [12, 19, 3, 5, 2, 3],
+                backgroundColor: [
+                    'red',
+                    'blue',
+                    'yellow',
+                    'green',
+                    'purple',
+                    'orange',
+                ],
+            }],
+        };
+    
+        // Get the canvas element by its id for the pie chart
+        const pieCanvas = document.getElementById('pieChart');
+    
+        // Set the canvas width based on the parent container's width
+        pieCanvas.width = pieCanvas.parentElement.clientWidth;
+    
+        // Create the pie chart
+        const pieCtx = pieCanvas.getContext('2d');
+        const pieChart = new Chart(pieCtx, {
+            type: 'pie',
+            data: pieChartData,
+        });
+    </script>
+    
+    
+    <h1>CSV Data from URL</h1>
+    <div id="csv-container"></div>
+
+    <script>
+        // URL of the CSV file
+        const csvURL = 'https://github.com/FridayHygge/fridayhygge.github.io/blob/master/data/inventory.tsv'; // Replace with your CSV URL
+
+        // Function to fetch and display CSV data
+        async function displayCSV() {
+            try {
+                // Fetch the CSV data
+                const response = await fetch(csvURL);
+                const data = await response.text();
+
+                // Parse CSV data into an array
+                const rows = data.split('\n');
+                const table = document.createElement('table');
+
+                rows.forEach(row => {
+                    const columns = row.split('\t');
+                    const tr = document.createElement('tr');
+
+                    columns.forEach(column => {
+                        const td = document.createElement('td');
+                        td.textContent = column;
+                        tr.appendChild(td);
+                    });
+
+                    table.appendChild(tr);
+                });
+
+                // Display the CSV data in the "csv-container" div
+                const csvContainer = document.getElementById('csv-container');
+                csvContainer.appendChild(table);
+            } catch (error) {
+                console.error('Error fetching or displaying CSV data:', error);
+            }
+        }
+
+        // Call the function to display CSV data
+        displayCSV();
+    </script>
+    
+
+    
+    <div class="container" id="cardContainer">
+        <!-- Cards will be generated here using JavaScript -->
+    </div>
+    <script>
+        // Specify the number of items you want to generate
+        const items = 5; // Change this value as needed
+
+        // Function to generate and append cards
+        function generateCards() {
+            const cardContainer = document.getElementById("cardContainer");
+
+            for (let i = 1; i <= items; i++) {
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const img = document.createElement("img");
+                // img.src = `item${i}.jpg`;
+                img.src = `./figures/logo.png`;
+                img.alt = `Item ${i}`;
+
+                const itemName = document.createElement("h2");
+                itemName.textContent = `Item ${i}`;
+
+                const itemDescription = document.createElement("p");
+                itemDescription.textContent = `Description of Item ${i}.`;
+
+                const itemPrice = document.createElement("p");
+                itemPrice.textContent = `Price: ${(i * 5).toFixed(2)} kr.`;
+
+                const addButton = document.createElement("button");
+                addButton.textContent = "Add to Cart";
+
+                card.appendChild(img);
+                card.appendChild(itemName);
+                card.appendChild(itemDescription);
+                card.appendChild(itemPrice);
+                card.appendChild(addButton);
+
+                cardContainer.appendChild(card);
+            }
+        }
+
+        // Call the function to generate cards
+        generateCards();
+    </script>
+
+
+</body>
+</html>
