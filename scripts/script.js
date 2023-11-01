@@ -8,16 +8,25 @@ document.addEventListener("DOMContentLoaded", function () {
         rows.forEach((row, index) => {
             const columns = row.split("\t"); // Assuming tab-separated values
 
+            // Skip headers
+            if (index === 0) {
+                return;
+            }
+
             // Skip empty rows
             if (columns.length === 1 && columns[0] === "") {
                 return;
             }
 
+            
             const card = document.createElement("div");
             card.className = "floating-card";
             card.innerHTML = `
-                <h3>Card ${index + 1}</h3>
-                <p>${columns.join("<br>")}</p>
+                <img src="figures/logo.png" alt="item-image">
+                <h3>Item ${index}</h3>
+                <b>Name:</b> ${columns[2]} <br>
+                <b>ID:</b> ${columns[1]} <br>
+                <b>Quantity:</b> ${columns[3]} <br>
             `;
 
             cardContainer.appendChild(card);

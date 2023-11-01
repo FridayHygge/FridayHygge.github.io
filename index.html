@@ -70,49 +70,6 @@
     </script>
     
     
-    <h1>CSV Data from URL</h1>
-    <div id="csv-container"></div>
-
-    <script>
-        // URL of the CSV file
-        const csvURL = 'data/inventory.tsv'; // Replace with your CSV URL
-
-        // Function to fetch and display CSV data
-        async function displayCSV() {
-            try {
-                // Fetch the CSV data
-                const response = await fetch(csvURL);
-                const data = await response.text();
-
-                // Parse CSV data into an array
-                const rows = data.split('\n');
-                const table = document.createElement('table');
-
-                rows.forEach(row => {
-                    const columns = row.split('\t');
-                    const tr = document.createElement('tr');
-
-                    columns.forEach(column => {
-                        const td = document.createElement('td');
-                        td.textContent = column;
-                        tr.appendChild(td);
-                    });
-
-                    table.appendChild(tr);
-                });
-
-                // Display the CSV data in the "csv-container" div
-                const csvContainer = document.getElementById('csv-container');
-                csvContainer.appendChild(table);
-            } catch (error) {
-                console.error('Error fetching or displaying CSV data:', error);
-            }
-        }
-
-        // Call the function to display CSV data
-        displayCSV();
-    </script>
-    
     <div class="container" id="card-container">
         <!-- Cards will be generated here using JavaScript -->
     </div>
