@@ -23,25 +23,33 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
-            let type_color;
+            let type_color = "white";
             if (columns[5] === "Beer") {
                 type_color = "#ffa600";
                 console.log("beer");
+                console.log(type_color);
+                console.log("--");
             }
 
             else if (columns[5] === "AF Beer") {
                 type_color = "#bc5090";
                 console.log("af beer");
+                console.log(type_color);
+                console.log("--");
             }
 
             else if (columns[5] === "Cider") {
                 type_color = "#ff6361";
                 console.log("cider");
+                console.log(type_color);
+                console.log("--");
             }
 
             else {
                 type_color = "#58508d";
                 console.log("soda");
+                console.log(type_color);
+                console.log("--");
             }
             
             const card = document.createElement("div");
@@ -51,7 +59,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-img-container">
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
-                    <div class="top-right" style="color:#58508d; background:#58508d">${columns[3]} x</div>
+                    <div class="top-right" id="ColorBox" style="color:#58508d; background:#58508d">${columns[3]} x</div>
+
                 </div>
                 <b>Quantity:</b> ${columns[3]} <br>
                 <b>Type:</b> ${columns[5]} <br>
