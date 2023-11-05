@@ -50,10 +50,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
 
                 </div>
-                <b>Quantity:</b> ${columns[3]} <br>
+                <b>Price:</b> -- kr. <br>
                 <b>Type:</b> ${columns[5]} <br>
                 <b>Description:</b> ${columns[2]} <br>
-                <b>ID:</b> ${columns[1]} <br>
                 
             `;
 
