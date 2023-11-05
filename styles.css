@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #82d182;
+    background-color: #008835;
 }
 .header {
     background-color: #333;
@@ -74,3 +74,22 @@ body {
     width: 80%;
     height: auto;
 }
+
+
+.card-img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: black;
+    background: white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px; /* Add a border radius for rounded corners */
+    border: 3px solid black; /
+  }

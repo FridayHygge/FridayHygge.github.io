@@ -18,15 +18,25 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
+            // skip entries with 0 stock
+            if (columns[3] === 0) {
+                return;
+            }
+
             
             const card = document.createElement("div");
             card.className = "floating-card";
             card.innerHTML = `
-                <img src="figures/logo.png" alt="item-image">
-                <h3>Item ${index}</h3>
-                <b>Name:</b> ${columns[2]} <br>
-                <b>ID:</b> ${columns[1]} <br>
+                <h3><b>${columns[4]}</b></h3>
+                <div class="card-img-container">
+                    <img src="figures/logo.png" alt="item-image">
+                    <div class="top-left">${columns[3]} x</div>
+                </div>
                 <b>Quantity:</b> ${columns[3]} <br>
+                <b>Type:</b> ${columns[5]} <br>
+                <b>Description:</b> ${columns[2]} <br>
+                <b>ID:</b> ${columns[1]} <br>
+                
             `;
 
             cardContainer.appendChild(card);
