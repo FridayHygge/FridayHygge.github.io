@@ -49,7 +49,7 @@ function createPieChart(counts) {
         }],
     };
 
-    const pieCanvas = document.getElementById('pieChart2');
+    const pieCanvas = document.getElementById('pieChart');
     pieCanvas.width = pieCanvas.parentElement.clientWidth;
 
     const pieCtx = pieCanvas.getContext('2d');
@@ -78,9 +78,6 @@ function generateRandomColors(labels) {
             color = "#58508d";
             
         }
-
-        console.log(labels[i]);
-        console.log(color);
         
         colors.push(color);
     }

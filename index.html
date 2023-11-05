@@ -30,48 +30,9 @@
     </div>
 
     <!-- Show some plots -->
-
     <div class="charts-container">
         <div class="chart-container">
             <canvas id="pieChart" class="chart-canvas"></canvas>
-        </div>
-    </div>
-    <script>
-
-
-
-        // Data for the pie chart
-        const pieChartData = {
-            labels: ['Beer', 'AF Beer', 'Cider', 'Soda'],
-            datasets: [{
-                data: [12, 19, 3, 5],
-                backgroundColor: [
-                    '#ffa600',
-                    '#bc5090',
-                    '#ff6361',
-                    '#58508d',
-                ],
-            }],
-        };
-    
-        // Get the canvas element by its id for the pie chart
-        const pieCanvas = document.getElementById('pieChart');
-    
-        // Set the canvas width based on the parent container's width
-        pieCanvas.width = pieCanvas.parentElement.clientWidth;
-    
-        // Create the pie chart
-        const pieCtx = pieCanvas.getContext('2d');
-        const pieChart = new Chart(pieCtx, {
-            type: 'pie',
-            data: pieChartData,
-        });
-    </script>
-
-
-    <div class="charts-container">
-        <div class="chart-container">
-            <canvas id="pieChart2" class="chart-canvas"></canvas>
         </div>
     </div>
     <script src="scripts/plots.js"></script>
