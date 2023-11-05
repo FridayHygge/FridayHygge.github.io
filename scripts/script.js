@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log("--");
             }
 
-            else {
+            else if (columns[5] === "Soda"){
                 type_color = "#58508d";
                 console.log("soda");
                 console.log(type_color);
