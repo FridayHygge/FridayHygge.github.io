@@ -93,3 +93,16 @@ body {
     border-radius: 10px; /* Add a border radius for rounded corners */
     border: 3px solid black; /
   }
+
+
+.top-right {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: white;
+    background: white;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px; /* Add a border radius for rounded corners */
+    border: 3px solid black; /
+  }

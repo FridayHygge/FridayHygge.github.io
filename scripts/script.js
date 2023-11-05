@@ -23,6 +23,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
+            let type_color;
+            if (columns[5] === "Beer") {
+                type_color = "#ffa600";
+            }
+
+            else if (columns[5] === "AF Beer") {
+                type_color = "#bc5090";
+            }
+
+            else if (columns[5] === "Cider") {
+                type_color = "#ff6361";
+            }
+
+            else {
+                type_color = "#58508d";
+            }
             
             const card = document.createElement("div");
             card.className = "floating-card";
@@ -31,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="card-img-container">
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
+                    <div class="top-right" style="color:${type_color}; background:${type_color}>${columns[3]} x</div>
                 </div>
                 <b>Quantity:</b> ${columns[3]} <br>
                 <b>Type:</b> ${columns[5]} <br>
