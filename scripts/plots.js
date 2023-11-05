@@ -39,7 +39,7 @@ function countUniqueOccurrences(data) {
 function createPieChart(counts) {
     const labels = Array.from(counts.keys());
     const countValues = Array.from(counts.values());
-    const backgroundColors = generateRandomColors(labels.length);
+    const backgroundColors = generateRandomColors(labels);
 
     const pieChartData = {
         labels: labels,
@@ -59,10 +59,23 @@ function createPieChart(counts) {
     });
 }
 
-function generateRandomColors(count) {
+function generateRandomColors(labels) {
     const colors = [];
-    for (let i = 0; i < count; i++) {
-        const color = getRandomColor();
+    for (let i = 0; i < labels.lenght; i++) {
+        let color = "#58508d";
+        if (labels[i] === "Beer") {
+            color = "#ffa600";
+        }
+        else if (labels[i] === "AF Beer") {
+            color = "#bc5090";
+        }
+        else if (labels[i] === "Cider") {
+            color = "#ff6361";
+        }
+        else {
+            color = "#58508d";
+        }
+        
         colors.push(color);
     }
     return colors;
