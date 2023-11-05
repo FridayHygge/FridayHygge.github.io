@@ -25,7 +25,7 @@ function countUniqueOccurrences(data) {
     const counts = new Map();
 
     for (let i = 1; i < data.length; i++) {
-        const value = data[i][5]; // Assuming column 5 is the 5th column (0-based index)
+        const value = data[i][5]*data[i][3]; // Assuming column 5 is the 5th column (0-based index)
         if (counts.has(value)) {
             counts.set(value, counts.get(value) + 1);
         } else {
@@ -74,6 +74,8 @@ function generateRandomColors(labels) {
         }
         else {
             color = "#58508d";
+            console.log(labels[i]);
+            console.log(color);
         }
         
         colors.push(color);
