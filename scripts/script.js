@@ -26,30 +26,18 @@ document.addEventListener("DOMContentLoaded", function () {
             let type_color = "white";
             if (columns[5] === "Beer") {
                 type_color = "#ffa600";
-                console.log("beer");
-                console.log(type_color);
-                console.log("--");
             }
 
             else if (columns[5] === "AF Beer") {
                 type_color = "#bc5090";
-                console.log("af beer");
-                console.log(type_color);
-                console.log("--");
             }
 
             else if (columns[5] === "Cider") {
                 type_color = "#ff6361";
-                console.log("cider");
-                console.log(type_color);
-                console.log("--");
             }
 
             else if (columns[5] === "Soda"){
                 type_color = "#58508d";
-                console.log("soda");
-                console.log(type_color);
-                console.log("--");
             }
             
             const card = document.createElement("div");
