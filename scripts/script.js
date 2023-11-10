@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             let type_color = "white";
-            if (columns[5] === "Beer") {
+            if (columns[7] === "Beer") {
                 type_color = "#ffa600";
             }
 
-            else if (columns[5] === "AF Beer") {
+            else if (columns[7] === "AF Beer") {
                 type_color = "#bc5090";
             }
 
-            else if (columns[5] === "Cider") {
+            else if (columns[7] === "Cider") {
                 type_color = "#ff6361";
             }
 
-            else if (columns[5] === "Soda"){
+            else if (columns[7] === "Soda"){
                 type_color = "#58508d";
             }
             
@@ -50,8 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
 
                 </div>
-                <b>Price:</b> -- kr. <br>
-                <b>Type:</b> ${columns[5]} <br>
+                <b>Price:</b> ${columns[6]} kr. <br>
+                <b>Type:</b> ${columns[7]} <br>
                 <b>Description:</b> ${columns[2]} <br>
                 
             `;
@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to fetch the TSV file and call createFloatingCardsFromTSV
     function fetchTSVAndCreateCards() {
-        fetch("data/inventory.tsv") // Replace with the path to your TSV file
+        fetch("data/data.tsv") // Replace with the path to your TSV file
             .then((response) => response.text())
             .then((data) => createFloatingCardsFromTSV(data))
             .catch((error) => console.error("Error fetching TSV data:", error));
