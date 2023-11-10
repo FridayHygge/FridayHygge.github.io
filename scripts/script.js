@@ -24,19 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             let type_color = "white";
-            if (columns[7] === "Beer") {
+            if (columns[7] === "beer") {
                 type_color = "#ffa600";
             }
 
-            else if (columns[7] === "AF Beer") {
+            else if (columns[7] === "af_beer") {
                 type_color = "#bc5090";
             }
 
-            else if (columns[7] === "Cider") {
+            else if (columns[7] === "cider") {
                 type_color = "#ff6361";
             }
 
-            else if (columns[7] === "Soda"){
+            else if (columns[7] === "soda"){
                 type_color = "#58508d";
             }
             
