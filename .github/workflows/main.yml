@@ -1,0 +1,40 @@
+name: Download and process new data for website
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Run every day at 12:00 PM
+
+jobs:
+  download_and_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download TSV files
+        run: |
+          # Download the inventory file
+          curl -L -o data/inventory.tsv "https://docs.google.com/spreadsheets/d/1_Lbd8oIQnoZ_QyH1oivv1QVAavYYQqkIXJigAq3ikHY/export?format=tsv"
+
+          # Download the catalogue file
+          curl -L -o data/catalogue.tsv "https://docs.google.com/spreadsheets/d/1lNyCmECXMyQtjOM2HKYzxROtRLee3xisYLFPF89VZ5c/export?format=tsv"
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Run Python Script
+        run: python scripts/process_data.py
+
+      - name: Commit joined file
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add data/data.tsv
+          git commit -m "add: updated catalogue"
+          git push
