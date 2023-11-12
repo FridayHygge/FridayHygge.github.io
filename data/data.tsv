@@ -1,4 +1,4 @@
-item_id	inventory_date	item	stock	name	item_a	sell_price	type
+item_id	inventory_date	item	stock	name	item_description	sell_price	type
 1150033	2023-11-10	Karmeliet Tripel 33 cl	1	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
 11	2023-11-10	Carlsberg noridc pilsner AF	1	Carlsberg nordic pilsner AF	Carlsberg noridc pilsner AF	0	af_beer
 1184133	2023-11-10	Mc Chouffe	1	Mc Chouffe	Mc Chouffe	35	beer
