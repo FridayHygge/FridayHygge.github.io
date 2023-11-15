@@ -24,6 +24,11 @@ def main(filename_inventory: str, filename_catalogue: str) -> None:
         inventory_data["inventory_date"] == date_of_last_entry
     ]
 
+    # select only inventory entries with available stock
+    inventory_data = inventory_data[
+        inventory_data["stock"] != 0
+    ]
+
     # lets now load the catalogue (note it expects a .tsv file)
     catalogue_data = pd.read_csv(filename_catalogue, sep="\t")
 
