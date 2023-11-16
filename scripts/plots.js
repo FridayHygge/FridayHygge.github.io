@@ -61,8 +61,6 @@ function createPieChart(counts) {
 
 function generateRandomColors(labels) {
     const colors = [];
-    console.log(labels.length)
-    console.log(labels)
     for (let i = 0; i < labels.length; i++) {
         let color = "#58508d";
         if (labels[i] === "Beer") {

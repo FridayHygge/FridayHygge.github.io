@@ -21,9 +21,18 @@ document.addEventListener("DOMContentLoaded", function () {
             if (isNameMatch && isCategoryMatch) {
                 /* card.style.display = "flex";*/
                 card.style.display = "";
+                console.log(`mathced:`)
                 console.log(`${cardName}`)
+                console.log(`you searched:`)
+                console.log(`${searchText}`)
+                console.log(`-------------`)
             } else {
                 card.style.display = "none";
+                console.log(`NOT mathced:`)
+                console.log(`${cardName}`)
+                console.log(`you searched:`)
+                console.log(`${searchText}`)
+                console.log(`-------------`)
             }
         });
     }
