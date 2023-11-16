@@ -49,6 +49,7 @@ body {
     border-radius: 5px;
     width: 300px;
     text-align: center;
+    display: flex;
 }
 
 .floating-card img {
@@ -106,3 +107,5 @@ body {
     border-radius: 10px; /* Add a border radius for rounded corners */
     border: 3px solid black; /
   }
+
+  

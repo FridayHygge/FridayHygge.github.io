@@ -42,9 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
             
             const card = document.createElement("div");
             card.className = "floating-card";
+            card.dataset.name = `${columns[2]}`;
+            card.dataset.category = `${columns[7]}`;
             card.innerHTML = `
                 <h3><b>${columns[4]}</b></h3>
-                <div class="card-img-container" data-name="${columns[2]}" data-category="${columns[7]}">
+                <div class="card-img-container"">
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
