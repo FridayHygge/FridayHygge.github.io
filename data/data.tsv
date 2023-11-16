@@ -1,36 +1,33 @@
 item_id	inventory_date	item	stock	name	item_description	sell_price	type
-1150033	2023-11-10	Karmeliet Tripel 33 cl	1	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
-11	2023-11-10	Carlsberg noridc pilsner AF	1	Carlsberg nordic pilsner AF	Carlsberg noridc pilsner AF	0	af_beer
-1184133	2023-11-10	Mc Chouffe	1	Mc Chouffe	Mc Chouffe	35	beer
-31000022	2023-11-10	Ørbæk Fynsk Forar	1	Ørbæk Fynsk Forar	Ørbæk Fynsk Forar	25	beer
-1072233	2023-11-10	Westmalle Extra 4,8%	3	Westmalle Extra	Westmalle Extra 4,8%	30	beer
-1190033	2023-11-10	Brunehaut Blond Gluten Free	4	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
-4567	2023-11-10	Tuborg Julebrygt 33cl	30	Tuborg Julebrygt	Tuborg Julebrygt 33cl	15	beer
-1856233	2023-11-10	Wulle Vollbier Hell 33cl	6	Wulle Vollbier Hell	Wulle Vollbier Hell 33cl	30	beer
-1034	2023-11-10	Rothaus Tannenzapfle 	6	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25	beer
-5643	2023-11-10	Duvel 8.5% 33cl Belgien	6	Duvel 8.5%	Duvel 8.5% 33cl Belgien	30	beer
-1190133	2023-11-10	Brunehaut Amber Gluten Free 6.5% 33cl	6	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
-1184233	2023-11-10	Brasserie dAchouffe Chouffe Nice Julebrygt 33cl Belgien 10%	6	Brasserie dAchouffe Chouffe Nice Julebrygt	Brasserie dAchouffe Chouffe Nice Julebrygt 33cl Belgien 10%	35	beer
-1880150	2023-11-10	Vinohraka Pils 12	2	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
-1165033	2023-11-10	St. Bernardus Pater	6	St. Bernardus Pater	St. Bernardus Pater	30	beer
-4157	2023-11-10	Hancock Gambrinus Dark 33cl	6	Hancock Gambrinus Dark	Hancock Gambrinus Dark 33cl	15	beer
-207925	2023-11-10	Somersby 33 cl fl inc pant Blackberry	8	Somersby	Somersby  Samlerabat -312.30	25	cider
-1700533	2023-11-10	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
-9992	2023-11-10	Hop Gun, Cepheus 5,1%	5	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
-10234	2023-11-10	Thisted Limfjords Porter 33cl	6	Thisted Limfjords Porter	Thisted Limfjords Porter 33cl	20	beer
-8671045	2023-11-10	Menabrea Ambrata	3	Menabrea Ambrata	Menabrea Ambrata	20	beer
-10033	2023-11-10	Refsvindinge Ale No.16 33 cl fl incl pant	26	Ale No.16  	Refsvindinge Ale No.16  	15	beer
-1	2023-11-10	Bamboozled Amager Bryghus Dry hopped Hazy ipa	1	Bamboozled Amager Bryghus	Bamboozled Amager Bryghus Dry hopped Hazy ipa	30	beer
-1692044	2023-11-10	O/O 50/50: Citra/Ekuanot IPA 44cl ds incl pant	1	O/O 50/50 Citra/Ekuanot	O/O 50/50: Citra/Ekuanot IPA   	50	beer
-7294018	2023-11-10	Baladin Rock n Roll	2	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
-207925	2023-11-10	Somersby 33 cl fl inc pant Eldenflower	12	Somersby	Somersby  Samlerabat -312.30	25	cider
-7	2023-11-10	High Tide India pale ale Port sd Brewery	3	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
-9	2023-11-10	Cocacola Original	7	Cocacola Original	Cocacola Original	5	soda
-1122125	2023-11-10	Lindemans Framboise	2	Lindemans Framboise	Lindemans Framboise	30	beer
-16421	2023-11-10	Brewdog Nanny State AF 33cl ds incl pant	1	Brewdog Nanny state	Brewdog Nanny state af   	30	af_beer
-4316	2023-11-10	Schneider, Mein Alkoholfreies, Alc Free Tap 3, 50 cl, Tyskland, Fl. Incl Pant	1	Schneider Mein Alkoholfreies	Schneider, Mein Alkoholfreies, Alc Free Tap 3, 50  Tyskland,  	35	beer
-21220	2023-11-10	Founders All day IPA	4	Founders All day	Founders All day IPA	35	beer
-7689389	2023-11-10	Gamma Snake Belly (Schwarze Rose collab) 44cl ds incl pant	2	Gamma Snake Belly	Gamma Snake Belly (Schwarze Rose collab)   	55	beer
-7897	2023-11-10	Abbeydale Deception 44 cl ds incl pant	2	Abbeydale Deception	Abbeydale Deception 44 cl  	40	beer
-3	2023-11-10	Fanta Exotic	5	Fanta Exotic	Fanta Exotic	5	soda
-31000023	2023-11-10	Ørbæk IPA 5%	6	Ørbæk IPA 5%	Ørbæk IPA 5%	25	beer
+1072233	2023-11-16	Westmalle Extra 4,8%	3	Westmalle Extra	Westmalle Extra 4,8%	30	beer
+31000023	2023-11-16	Ørbæk IPA 5%	5	Ørbæk IPA 5%	Ørbæk IPA 5%	25	beer
+1880150	2023-11-16	Vinohraka Pils 12	1	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
+1190033	2023-11-16	Brunehaut Blond Gluten Free	3	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
+31000022	2023-11-16	Ørbæk Fynsk Forar	1	Ørbæk Fynsk Forar	Ørbæk Fynsk Forar	25	beer
+1150033	2023-11-16	Karmeliet Tripel 33 cl	1	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
+1165033	2023-11-16	St. Bernardus Pater	6	St. Bernardus Pater	St. Bernardus Pater	30	beer
+1856233	2023-11-16	Wulle Vollbier Hell 33cl	5	Wulle Vollbier Hell	Wulle Vollbier Hell 33cl	30	beer
+1034	2023-11-16	Rothaus Tannenzapfle 	20	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25	beer
+5643	2023-11-16	Duvel 8.5% 33cl Belgien	3	Duvel 8.5%	Duvel 8.5% 33cl Belgien	30	beer
+1190133	2023-11-16	Brunehaut Amber Gluten Free 6.5% 33cl	6	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
+1184233	2023-11-16	Brasserie dAchouffe Chouffe Nice Julebrygt 33cl Belgien 10%	2	Brasserie dAchouffe Chouffe Nice Julebrygt	Brasserie dAchouffe Chouffe Nice Julebrygt 33cl Belgien 10%	35	beer
+4567	2023-11-16	Tuborg Julebrygt 33cl	10	Tuborg Julebrygt	Tuborg Julebrygt 33cl	15	beer
+207925	2023-11-16	Somersby 33 cl fl inc pant Blackberry	7	Somersby	Somersby  Samlerabat -312.30	25	cider
+207925	2023-11-16	Somersby 33 cl fl inc pant Eldenflower	10	Somersby	Somersby  Samlerabat -312.30	25	cider
+1122125	2023-11-16	Lindemans Framboise	2	Lindemans Framboise	Lindemans Framboise	30	beer
+7897	2023-11-16	Abbeydale Deception 44 cl ds incl pant	2	Abbeydale Deception	Abbeydale Deception 44 cl  	40	beer
+4157	2023-11-16	Hancock Gambrinus Dark 33cl	6	Hancock Gambrinus Dark	Hancock Gambrinus Dark 33cl	15	beer
+8671045	2023-11-16	Menabrea Ambrata	1	Menabrea Ambrata	Menabrea Ambrata	20	beer
+10033	2023-11-16	Refsvindinge Ale No.16 33 cl fl incl pant	62	Ale No.16  	Refsvindinge Ale No.16  	15	beer
+1692044	2023-11-16	O/O 50/50: Citra/Ekuanot IPA 44cl ds incl pant	1	O/O 50/50 Citra/Ekuanot	O/O 50/50: Citra/Ekuanot IPA   	50	beer
+1690334	2023-11-16	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
+7294018	2023-11-16	Baladin Rock n Roll	2	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
+7	2023-11-16	High Tide India pale ale Port sd Brewery	3	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
+3	2023-11-16	Fanta Exotic	5	Fanta Exotic	Fanta Exotic	5	soda
+9	2023-11-16	Cocacola Original	4	Cocacola Original	Cocacola Original	5	soda
+1700533	2023-11-16	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
+16421	2023-11-16	Brewdog Nanny State AF 33cl ds incl pant	1	Brewdog Nanny state	Brewdog Nanny state af   	30	af_beer
+21220	2023-11-16	Founders All day IPA	4	Founders All day	Founders All day IPA	35	beer
+7689389	2023-11-16	Gamma Snake Belly (Schwarze Rose collab) 44cl ds incl pant	2	Gamma Snake Belly	Gamma Snake Belly (Schwarze Rose collab)   	55	beer
+9992	2023-11-16	Hop Gun, Cepheus 5,1%	4	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
+10234	2023-11-16	Thisted Limfjords Porter 33cl	6	Thisted Limfjords Porter	Thisted Limfjords Porter 33cl	20	beer
