@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
             card.dataset.category = `${columns[7]}`;
             card.innerHTML = `
                 <h3><b>${columns[4]}</b></h3>
-                <div class="card-img-container"">
+                <div class="card-img-container">
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const isCategoryMatch = selectedCategory === "all" || cardCategory === selectedCategory;
 
             if (isNameMatch && isCategoryMatch) {
-                card.style.display = "flex";
+                card.style.display = "";
             } else {
                 card.style.display = "none";
             }
