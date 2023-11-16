@@ -106,3 +106,13 @@ body {
     border-radius: 10px; /* Add a border radius for rounded corners */
     border: 3px solid black; /
   }
+
+.search-container {
+    margin: 10px auto;
+    background-color: #696363;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+    
