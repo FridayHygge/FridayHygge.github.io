@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             card.innerHTML = `
                 <h3><b>${columns[4]}</b></h3>
                 <div class="card-img-container">
-                    <img src="figures/drinks/${columns[0]}.jpg" alt="item-image">
+                    <img src="figures/items/${columns[0]}.jpg" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
                 </div>
