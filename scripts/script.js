@@ -50,11 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
-
                 </div>
-                <b>Price:</b> ${columns[6]} kr. <br>
-                <b>Type:</b> ${columns[7]} <br>
-                <b>Description:</b> ${columns[2]} <br>
+                <div class="card-footer-container">
+                    <b>Price:</b> ${columns[6]} kr. <br>
+                    <b>Type:</b> ${columns[7]} <br>
+                    <b>Description:</b> ${columns[2]} <br>
+                </div>
                 
             `;
 
