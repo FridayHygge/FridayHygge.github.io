@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
             card.className = "floating-card";
             card.innerHTML = `
                 <h3><b>${columns[4]}</b></h3>
-                <div class="card-img-container">
+                <div class="card-img-container" data-name="${columns[2]}" data-category="${columns[7]}">
                     <img src="figures/logo.png" alt="item-image">
                     <div class="top-left">${columns[3]} x</div>
                     <div class="top-right" style="color:${type_color}; background:${type_color}">${columns[3]} x</div>
@@ -69,4 +69,33 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     fetchTSVAndCreateCards();
+});
+
+// Function for searching and sorting categories in the catalogue
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById("searchInput");
+    const filterSelect = document.getElementById("filterSelect");
+    const cards = document.querySelectorAll(".card");
+
+    searchInput.addEventListener("input", filterCards);
+    filterSelect.addEventListener("change", filterCards);
+
+    function filterCards() {
+        const searchText = searchInput.value.toLowerCase();
+        const selectedCategory = filterSelect.value.toLowerCase();
+
+        cards.forEach(card => {
+            const cardName = card.dataset.name.toLowerCase();
+            const cardCategory = card.dataset.category.toLowerCase();
+
+            const isNameMatch = cardName.includes(searchText);
+            const isCategoryMatch = selectedCategory === "all" || cardCategory === selectedCategory;
+
+            if (isNameMatch && isCategoryMatch) {
+                card.style.display = "flex";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    }
 });
