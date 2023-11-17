@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
     const filterSelect = document.getElementById("filterSelect");
-    var cards = document.querySelectorAll(".floating-card");
+    let cards = document.querySelectorAll(".floating-card");
 
     searchInput.addEventListener("input", filterCards);
     filterSelect.addEventListener("change", filterCards);
