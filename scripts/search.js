@@ -2,12 +2,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     const searchInput = document.getElementById("searchInput");
     const filterSelect = document.getElementById("filterSelect");
+    var cards = document.querySelectorAll(".floating-card");
 
     searchInput.addEventListener("input", filterCards);
     filterSelect.addEventListener("change", filterCards);
 
     function filterCards() {
-        const cards = document.querySelectorAll(".floating-card");
+        if (cards.length === 0) {
+            cards = document.querySelectorAll(".floating-card");
+        }
         const searchText = searchInput.value.toLowerCase();
         const selectedCategory = filterSelect.value.toLowerCase();
 
