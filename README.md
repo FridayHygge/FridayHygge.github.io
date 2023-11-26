@@ -9,11 +9,6 @@ This repository contains the source code for the Friday Hygge Website.
 
 ## Development
 
-cd fridayhygge.github.io
-python -m http.server
-and the open port (by default 8000)
-127.0.0.1:8000
-
 ### Cloning repository & installing dependencies
 
 1. Clone the repository: ```git clone https://github.com/FridayHygge/fridayhygge.github.io```
