@@ -1,4 +1,4 @@
-const tsvFilePath = 'data/inventory.tsv'; // Replace with the actual file path
+const tsvFilePath = 'data/data.tsv'; // filepath to the data
 
 fetch(tsvFilePath)
     .then(response => response.text())
@@ -25,9 +25,9 @@ function countUniqueOccurrences(data) {
     const counts = new Map();
 
     for (let i = 1; i < data.length; i++) {
-        const value = data[i][5]; // Assuming column 5 is the 5th column (0-based index)
+        const value = data[i][7]; // column 7 contains the drink type
         if (counts.has(value)) {
-            counts.set(value, counts.get(value) + parseInt(data[i][3]));
+            counts.set(value, counts.get(value) + parseInt(data[i][3])); // column- 3 contains the stock
         } else {
             counts.set(value, parseInt(data[i][3]));
         }
@@ -63,13 +63,13 @@ function generateRandomColors(labels) {
     const colors = [];
     for (let i = 0; i < labels.length; i++) {
         let color = "#58508d";
-        if (labels[i] === "Beer") {
+        if (labels[i] === "beer") {
             color = "#ffa600";
         }
-        else if (labels[i] === "AF Beer") {
+        else if (labels[i] === "af_beer") {
             color = "#bc5090";
         }
-        else if (labels[i] === "Cider") {
+        else if (labels[i] === "cider") {
             color = "#ff6361";
         }
         else {
