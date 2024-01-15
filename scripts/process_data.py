@@ -41,6 +41,9 @@ def main(filename_inventory: str, filename_catalogue: str) -> None:
     # cast index (item_id) as a integer
     data.index = data.index.astype(int)
 
+    # reorder the data alphabetically A-Z using the 'name' column
+    data.sort_values("name", ascending=True, inplace=True)
+
     # save to file
     data.to_csv("data/data.tsv", sep="\t")
 
