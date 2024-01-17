@@ -1,28 +1,23 @@
 item_id	inventory_date	item	stock	name	item_description	sell_price	type
-10033	2024-01-11	Refsvindinge Ale No.16 33 cl fl incl pant	19	Ale No.16  	Refsvindinge Ale No.16  	15	beer
-49004	2024-01-11	Ayinger, Celebrator	5	Ayinger Celebrator	Ayinger, Celebrator	35	beer
-7294018	2024-01-11	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
-1190133	2024-01-11	Brunehaut Amber Gluten Free 6.5% 33cl	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
-1190033	2024-01-11	Brunehaut Blond Gluten Free	6	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
-102709	2024-01-11	Budvar Dark Lager 50cl	1	Budvar Dark Lager	Budvar Dark Lager 50cl	25	beer
-9	2024-01-11	Cocacola Original	4	Cocacola Original	Cocacola Original	5	soda
-10	2024-01-11	Cocacola zero	12	Cocacola zero	Cocacola zero	5	soda
-3	2024-01-11	Fanta Exotic	6	Fanta Exotic	Fanta Exotic	5	soda
-4	2024-01-11	Faxe Kondi	1	Faxe Kondi	Faxe Kondi	5	soda
-21220	2024-01-11	Founders All day IPA	4	Founders All day	Founders All day IPA	35	beer
-7	2024-01-11	High Tide India pale ale Port sd Brewery	3	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
-9992	2024-01-11	Hop Gun, Cepheus 5,1%	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
-1150033	2024-01-11	Karmeliet Tripel 33 cl	6	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
-14	2024-01-11	Lindemans Strawberry	6	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35	beer
-13	2024-01-11	Mors Jule Stout	6	Mors Jule Stout	Mors Jule Stout 33cl	20	beer
-1700533	2024-01-11	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
-1690334	2024-01-11	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
-19	2024-01-11	Pepsi Max	3	Pepsi Max	Pepsi Max	5	soda
-1034	2024-01-11	Rothaus Tannenzapfle 	18	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25	beer
-20	2024-01-11	Royal 0,0% Classic	8	Royal 0,0% Classic	Royal 0,0% Classic	5	af_beer
-17	2024-01-11	Somersby  Blackberry	5	Somersby  Blackberry	Somersby  Blackberry	25	cider
-18	2024-01-11	Somersby  Elderflower & Lime	3	Somersby  Elderflower & Lime	Somersby  Elderflower & Lime	25	cider
-1165033	2024-01-11	St. Bernardus Pater	1	St. Bernardus Pater	St. Bernardus Pater	30	beer
-1880150	2024-01-11	Vinohraka Pils 12	1	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
-31000022	2024-01-11	Ørbæk Fynsk Forar	1	Ørbæk Fynsk Forar	Ørbæk Fynsk Forar	25	beer
-31000023	2024-01-11	Ørbæk IPA 5%	2	Ørbæk IPA 5%	Ørbæk IPA 5%	25	beer
+10033	2024-01-16	Refsvindinge Ale No.16 33 cl fl incl pant	38	Ale No.16  	Refsvindinge Ale No.16  	15	beer
+49004	2024-01-16	Ayinger, Celebrator	4	Ayinger Celebrator	Ayinger, Celebrator	35	beer
+7294018	2024-01-16	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
+1190133	2024-01-16	Brunehaut Amber Gluten Free 6.5% 33cl	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
+1190033	2024-01-16	Brunehaut Blond Gluten Free	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
+9	2024-01-16	Cocacola Original	4	Cocacola Original	Cocacola Original	5	soda
+10	2024-01-16	Cocacola zero	8	Cocacola zero	Cocacola zero	5	soda
+3	2024-01-16	Fanta Exotic	6	Fanta Exotic	Fanta Exotic	5	soda
+21220	2024-01-16	Founders All day IPA	4	Founders All day	Founders All day IPA	35	beer
+7	2024-01-16	High Tide India pale ale Port sd Brewery	3	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
+9992	2024-01-16	Hop Gun, Cepheus 5,1%	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
+1150033	2024-01-16	Karmeliet Tripel 33 cl	4	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
+14	2024-01-16	Lindemans Strawberry	4	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35	beer
+13	2024-01-16	Mors Jule Stout	3	Mors Jule Stout	Mors Jule Stout 33cl	20	beer
+1700533	2024-01-16	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
+1690334	2024-01-16	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
+19	2024-01-16	Pepsi Max	1	Pepsi Max	Pepsi Max	5	soda
+20	2024-01-16	Royal 0,0% Classic	8	Royal 0,0% Classic	Royal 0,0% Classic	5	af_beer
+17	2024-01-16	Somersby  Blackberry	2	Somersby  Blackberry	Somersby  Blackberry	25	cider
+18	2024-01-16	Somersby  Elderflower & Lime	3	Somersby  Elderflower & Lime	Somersby  Elderflower & Lime	25	cider
+1165033	2024-01-16	St. Bernardus Pater	1	St. Bernardus Pater	St. Bernardus Pater	30	beer
+1880150	2024-01-16	Vinohraka Pils 12	1	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
