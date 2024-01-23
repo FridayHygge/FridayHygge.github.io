@@ -1,30 +1,28 @@
 item_id	inventory_date	item	stock	name	item_description	sell_price	type
-10033	2024-01-18	Refsvindinge Ale No.16 33 cl fl incl pant	68	Ale No.16  	Refsvindinge Ale No.16  	15	beer
-49001	2024-01-18	Ayinger Brauweisse	4	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35	beer
-49004	2024-01-18	Ayinger, Celebrator	4	Ayinger Celebrator	Ayinger, Celebrator	35	beer
-7294018	2024-01-18	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
-1190133	2024-01-18	Brunehaut Amber Gluten Free 6.5% 33cl	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
-1190033	2024-01-18	Brunehaut Blond Gluten Free	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
-102709	2024-01-18	Budvar Dark Lager 50cl	3	Budvar Dark Lager	Budvar Dark Lager 50cl	25	beer
-9	2024-01-18	Cocacola Original	4	Cocacola Original	Cocacola Original	5	soda
-10	2024-01-18	Cocacola zero	8	Cocacola zero	Cocacola zero	5	soda
-3	2024-01-18	Fanta Exotic	6	Fanta Exotic	Fanta Exotic	5	soda
-4	2024-01-18	Faxe Kondi	6	Faxe Kondi	Faxe Kondi	5	soda
-21220	2024-01-18	Founders All day IPA	4	Founders All day	Founders All day IPA	35	beer
-7	2024-01-18	High Tide India pale ale Port sd Brewery	3	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
-31000203	2024-01-18	Hoegaarden	6	Hoegaarden	Hoegaarden, Wit, Hvede	25	beer
-16	2024-01-18	Hoegaarden verboden vrucht	6	Hoegaarden verboden vrucht	Hoegaarden verboden vrucht 8.5% 33cl	40	beer
-9992	2024-01-18	Hop Gun, Cepheus 5,1%	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
-1150033	2024-01-18	Karmeliet Tripel 33 cl	4	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
-15	2024-01-18	Lindemans Pesche	4	Lindemans Pesche	Lindemans Pesche 25cl	35	beer
-14	2024-01-18	Lindemans Strawberry	4	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35	beer
-90817	2024-01-18	Menabrea Rossa	6	Menabrea Rossa	Menabrea Rossa	25	beer
-13	2024-01-18	Mors Jule Stout	3	Mors Jule Stout	Mors Jule Stout 33cl	20	beer
-1700533	2024-01-18	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
-1690334	2024-01-18	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
-19	2024-01-18	Pepsi Max	1	Pepsi Max	Pepsi Max	5	soda
-20	2024-01-18	Royal 0,0% Classic	8	Royal 0,0% Classic	Royal 0,0% Classic	5	af_beer
-17	2024-01-18	Somersby  Blackberry	2	Somersby  Blackberry	Somersby  Blackberry	25	cider
-18	2024-01-18	Somersby  Elderflower & Lime	3	Somersby  Elderflower & Lime	Somersby  Elderflower & Lime	25	cider
-1165033	2024-01-18	St. Bernardus Pater	1	St. Bernardus Pater	St. Bernardus Pater	30	beer
-1880150	2024-01-18	Vinohraka Pils 12	1	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
+10033	2024-01-23	Ale No.16	94	Ale No.16  	Refsvindinge Ale No.16  	15	beer
+49001	2024-01-23	Ayinger Brauweisse	5	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35	beer
+49004	2024-01-23	Ayinger Celebrator	3	Ayinger Celebrator	Ayinger, Celebrator	35	beer
+7294018	2024-01-23	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
+1190133	2024-01-23	Brunehaut Amber	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	35	beer
+1190033	2024-01-23	Brunehaut Blond	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
+102709	2024-01-23	Budvar Dark Lager	5	Budvar Dark Lager	Budvar Dark Lager 50cl	25	beer
+10	2024-01-23	Cocacola zero	6	Cocacola zero	Cocacola zero	5	soda
+3	2024-01-23	Fanta Exotic	6	Fanta Exotic	Fanta Exotic	5	soda
+4	2024-01-23	Faxe Kondi	10	Faxe Kondi	Faxe Kondi	5	soda
+21220	2024-01-23	Founders All day	4	Founders All day	Founders All day IPA	35	beer
+31000203	2024-01-23	Hoegaarden	4	Hoegaarden	Hoegaarden, Wit, Hvede	25	beer
+16	2024-01-23	Hoegaarden verboden vrucht	6	Hoegaarden verboden vrucht	Hoegaarden verboden vrucht 8.5% 33cl	40	beer
+9992	2024-01-23	Hop Gun Cepheus	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
+1150033	2024-01-23	Karmeliet Tripel	2	Karmeliet Tripel	Karmeliet Tripel 33 cl	35	beer
+15	2024-01-23	Lindemans Pesche	2	Lindemans Pesche	Lindemans Pesche 25cl	35	beer
+14	2024-01-23	Lindemans Strawberry	4	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35	beer
+90817	2024-01-23	Menabrea Rossa	3	Menabrea Rossa	Menabrea Rossa	25	beer
+13	2024-01-23	Mors Jule Stout	1	Mors Jule Stout	Mors Jule Stout 33cl	20	beer
+1700533	2024-01-23	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35	beer
+1690334	2024-01-23	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
+19	2024-01-23	Pepsi Max	1	Pepsi Max	Pepsi Max	5	soda
+21	2024-01-23	Royak Økologisk Pilsner	3	Royak Økologisk Pilsner	Royak Økologisk Pilsner	20	beer
+20	2024-01-23	Royal 0,0% Classic	6	Royal 0,0% Classic	Royal 0,0% Classic	5	af_beer
+17	2024-01-23	Somersby  Blackberry	1	Somersby  Blackberry	Somersby  Blackberry	25	cider
+18	2024-01-23	Somersby  Elderflower & Lime	1	Somersby  Elderflower & Lime	Somersby  Elderflower & Lime	25	cider
+1165033	2024-01-23	St. Bernardus Pater	1	St. Bernardus Pater	St. Bernardus Pater	30	beer
