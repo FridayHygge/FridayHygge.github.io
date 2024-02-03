@@ -18,6 +18,7 @@ item_id	inventory_date	item	stock	name	item_description	sell_price	type
 90817	2024-02-01	Menabrea Rossa	1	Menabrea Rossa	Menabrea Rossa	25.0	beer
 1700533	2024-02-01	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35.0	beer
 1690334	2024-02-01	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45.0	beer
+1034	2024-02-01	Rothaus-Braun Tannen Zapfle	10	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25.0	beer
 21	2024-02-01	Royak Økologisk Pilsner	1	Royak Økologisk Pilsner	Royak Økologisk Pilsner	20.0	beer
 20	2024-02-01	Royal 0,0% Classic	6	Royal 0,0% Classic	Royal 0,0% Classic	5.0	af_beer
 13	2024-02-01	Mors Jule Stout	7				
