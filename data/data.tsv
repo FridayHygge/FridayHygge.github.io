@@ -1,26 +1,22 @@
 item_id	inventory_date	item	stock	name	item_description	sell_price	type
-10033	2024-02-08	Ale No.16	83	Ale No.16  	Refsvindinge Ale No.16  	15.0	beer
-49001	2024-02-08	Ayinger Brauweisse	5	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35.0	beer
-49004	2024-02-08	Ayinger Celebrator	3	Ayinger Celebrator	Ayinger, Celebrator	35.0	beer
-7294018	2024-02-08	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40.0	beer
-1190133	2024-02-08	Brunehaut Amber	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	40.0	beer
-1190033	2024-02-08	Brunehaut Blond	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35.0	beer
-102709	2024-02-08	Budvar Dark Lager	1	Budvar Dark Lager	Budvar Dark Lager 50cl	30.0	beer
-3	2024-02-08	Fanta Exotic	4	Fanta Exotic	Fanta Exotic	5.0	soda
-4	2024-02-08	Faxe Kondi	19	Faxe Kondi	Faxe Kondi	5.0	soda
-21220	2024-02-08	Founders All day	4	Founders All day	Founders All day IPA	35.0	beer
-31000203	2024-02-08	Hoegaarden	6	Hoegaarden	Hoegaarden, Wit, Hvede	30.0	beer
-16	2024-02-08	Hoegaarden verboden vrucht	1	Hoegaarden verboden vrucht	Hoegaarden verboden vrucht 8.5% 33cl	40.0	beer
-9992	2024-02-08	Hop Gun Cepheus	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45.0	beer
-1150033	2024-02-08	Karmeliet Tripel	1	Karmeliet Tripel	Karmeliet Tripel 33 cl	40.0	beer
-15	2024-02-08	Lindemans Pesche	1	Lindemans Pesche	Lindemans Pesche 25cl	35.0	beer
-14	2024-02-08	Lindemans Strawberry	3	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35.0	beer
-90817	2024-02-08	Menabrea Rossa	1	Menabrea Rossa	Menabrea Rossa	25.0	beer
-1700533	2024-02-08	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35.0	beer
-1690334	2024-02-08	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45.0	beer
-30249	2024-02-08	Paulaner Salvator	6	Paulaner Salvator	Paulaner Salvator, Dobbeltbock, 33cl	35.0	beer
-1204233	2024-02-08	Pere Noel	6	Pere Noel	Pere Noel 7% 33cl	35.0	beer
-1034	2024-02-08	Rothaus-Braun Tannen Zapfle	10	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25.0	beer
-21	2024-02-08	Royak Økologisk Pilsner	1	Royak Økologisk Pilsner	Royak Økologisk Pilsner	20.0	beer
-20	2024-02-08	Royal 0,0% Classic	6	Royal 0,0% Classic	Royal 0,0% Classic	5.0	af_beer
-13	2024-02-08	Mors Jule Stout	7				
+10033	2024-02-16	Ale No.16	47	Ale No.16  	Refsvindinge Ale No.16  	15.0	beer
+1027633	2024-02-16	Amager Bryghus, Faelled	6	Amager Bryghus, Faelled	Amager Bryghus, Faelled, 33cl	35.0	beer
+49001	2024-02-16	Ayinger Brauweisse	4	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35.0	beer
+49013	2024-02-16	Ayinger Lager Hell	6	Ayinger Lager Hell	Ayinger Lager Hell 50 cl	40.0	beer
+1190133	2024-02-16	Brunehaut Amber	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	40.0	beer
+1190033	2024-02-16	Brunehaut Blond	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35.0	beer
+102709	2024-02-16	Budvar Dark Lager	1	Budvar Dark Lager	Budvar Dark Lager 50cl	30.0	beer
+4	2024-02-16	Faxe Kondi	18	Faxe Kondi	Faxe Kondi	5.0	soda
+21220	2024-02-16	Founders All day	4	Founders All day	Founders All day IPA	35.0	beer
+31000203	2024-02-16	Hoegaarden	5	Hoegaarden	Hoegaarden, Wit, Hvede	30.0	beer
+9992	2024-02-16	Hop Gun Cepheus	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45.0	beer
+15	2024-02-16	Lindemans Pesche	1	Lindemans Pesche	Lindemans Pesche 25cl	35.0	beer
+14	2024-02-16	Lindemans Strawberry	2	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35.0	beer
+1184133	2024-02-16	Mc Chouffe	6	Mc Chouffe	Mc Chouffe	40.0	beer
+1700533	2024-02-16	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35.0	beer
+1690334	2024-02-16	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45.0	beer
+30249	2024-02-16	Paulaner Salvator	4	Paulaner Salvator	Paulaner Salvator, Dobbeltbock, 33cl	35.0	beer
+1204233	2024-02-16	Pere Noel	6	Pere Noel	Pere Noel 7% 33cl	35.0	beer
+1034	2024-02-16	Rothaus-Braun Tannen Zapfle	24	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25.0	beer
+406	2024-02-16	Thisted Humle	6	Thisted Humle	Thisted Humle 33cl	25.0	beer
+13	2024-02-16	Mors Jule Stout	5				
