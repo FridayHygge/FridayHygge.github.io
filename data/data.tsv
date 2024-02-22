@@ -1,22 +1,85 @@
 item_id	inventory_date	item	stock	name	item_description	sell_price	type
-10033	2024-02-16	Ale No.16	47	Ale No.16  	Refsvindinge Ale No.16  	15.0	beer
-1027633	2024-02-16	Amager Bryghus, Faelled	6	Amager Bryghus, Faelled	Amager Bryghus, Faelled, 33cl	35.0	beer
-49001	2024-02-16	Ayinger Brauweisse	4	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35.0	beer
-49013	2024-02-16	Ayinger Lager Hell	6	Ayinger Lager Hell	Ayinger Lager Hell 50 cl	40.0	beer
-1190133	2024-02-16	Brunehaut Amber	2	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	40.0	beer
-1190033	2024-02-16	Brunehaut Blond	5	Brunehaut Blond	Brunehaut Blond Gluten Free	35.0	beer
-102709	2024-02-16	Budvar Dark Lager	1	Budvar Dark Lager	Budvar Dark Lager 50cl	30.0	beer
-4	2024-02-16	Faxe Kondi	18	Faxe Kondi	Faxe Kondi	5.0	soda
-21220	2024-02-16	Founders All day	4	Founders All day	Founders All day IPA	35.0	beer
-31000203	2024-02-16	Hoegaarden	5	Hoegaarden	Hoegaarden, Wit, Hvede	30.0	beer
-9992	2024-02-16	Hop Gun Cepheus	3	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45.0	beer
-15	2024-02-16	Lindemans Pesche	1	Lindemans Pesche	Lindemans Pesche 25cl	35.0	beer
-14	2024-02-16	Lindemans Strawberry	2	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35.0	beer
-1184133	2024-02-16	Mc Chouffe	6	Mc Chouffe	Mc Chouffe	40.0	beer
-1700533	2024-02-16	O/O Dalen Lager	4	O/O Dalen Lager	O/O Dalen Lager	35.0	beer
-1690334	2024-02-16	O/O Evergreen IPA	2	O/O Evergreen IPA	O/O Evergreen IPA	45.0	beer
-30249	2024-02-16	Paulaner Salvator	4	Paulaner Salvator	Paulaner Salvator, Dobbeltbock, 33cl	35.0	beer
-1204233	2024-02-16	Pere Noel	6	Pere Noel	Pere Noel 7% 33cl	35.0	beer
-1034	2024-02-16	Rothaus-Braun Tannen Zapfle	24	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25.0	beer
-406	2024-02-16	Thisted Humle	6	Thisted Humle	Thisted Humle 33cl	25.0	beer
-13	2024-02-16	Mors Jule Stout	5				
+7897	2024-02-22	Abbeydale Deception	1	Abbeydale Deception	Abbeydale Deception 44 cl  	40	beer
+10033	2024-02-22	Ale No.16  	1	Ale No.16  	Refsvindinge Ale No.16  	15	beer
+46719344	2024-02-22	Alefarm Mellow	1	Alefarm Mellow	Alefarm Mellow 5,1%   	55	beer
+1304344	2024-02-22	Amager Bryghus Demon Juice	1	Amager Bryghus Demon Juice	Amager Bryghus Demon Juice 7%   	50	beer
+1027633	2024-02-22	Amager Bryghus, Faelled	1	Amager Bryghus, Faelled	Amager Bryghus, Faelled, 33cl	35	beer
+49001	2024-02-22	Ayinger Brauweisse	1	Ayinger Brauweisse	Ayinger Brauweisse 5.1% 50cl	35	beer
+49004	2024-02-22	Ayinger Celebrator	1	Ayinger Celebrator	Ayinger, Celebrator	35	beer
+49013	2024-02-22	Ayinger Lager Hell	1	Ayinger Lager Hell	Ayinger Lager Hell 50 cl	40	beer
+49000	2024-02-22	Ayinger Urweisse	1	Ayinger Urweisse	Ayinger, Urweisse, Tyskland, 	35	beer
+7294018	2024-02-22	Baladin Rock n Roll	1	Baladin Rock n Roll	Baladin Rock n Roll	40	beer
+7293918	2024-02-22	Baladin Super Bitter	1	Baladin Super Bitter	Baladin Super Bitter 8% 33cl	45	beer
+1	2024-02-22	Bamboozled Amager Bryghus	1	Bamboozled Amager Bryghus	Bamboozled Amager Bryghus Dry hopped Hazy ipa	30	beer
+1184233	2024-02-22	Brasserie dAchouffe Chouffe Nice Julebrygt	1	Brasserie dAchouffe Chouffe Nice Julebrygt	Brasserie dAchouffe Chouffe Nice Julebrygt 33cl Belgien 10%	35	beer
+16122	2024-02-22	Brewdog Elvis Juice	1	Brewdog Elvis Juice	Brewdog Elvis Juice	35	beer
+16421	2024-02-22	Brewdog Nanny state	1	Brewdog Nanny state	Brewdog Nanny state af   	30	af_beer
+1190133	2024-02-22	Brunehaut Amber	1	Brunehaut Amber	Brunehaut Amber Gluten Free 6.5% 33cl	40	beer
+1190033	2024-02-22	Brunehaut Blond	1	Brunehaut Blond	Brunehaut Blond Gluten Free	35	beer
+102709	2024-02-22	Budvar Dark Lager	1	Budvar Dark Lager	Budvar Dark Lager 50cl	30	beer
+11	2024-02-22	Carlsberg nordic pilsner AF	1	Carlsberg nordic pilsner AF	Carlsberg noridc pilsner AF	0	af_beer
+9	2024-02-22	Cocacola Original	1	Cocacola Original	Cocacola Original	5	soda
+10	2024-02-22	Cocacola zero	1	Cocacola zero	Cocacola zero	5	soda
+2	2024-02-22	Dry Lips Kasper	1	Dry Lips Kasper	Dry Lips Kasper	30	beer
+1203433	2024-02-22	Dulle Teve	1	Dulle Teve	Dulle Teve 10%  	45	beer
+5643	2024-02-22	Duvel 8.5%	1	Duvel 8.5%	Duvel 8.5% 33cl Belgien	35	beer
+102729	2024-02-22	Estrella Damm	1	Estrella Damm	Estrella Damm Non alcoholic   	20	af_beer
+3	2024-02-22	Fanta Exotic	1	Fanta Exotic	Fanta Exotic	5	soda
+4	2024-02-22	Faxe Kondi	1	Faxe Kondi	Faxe Kondi	5	soda
+5	2024-02-22	Flying couch Glorius Morning	1	Flying couch Glorius Morning	Flying couch Glorius Morning	30	beer
+1361744	2024-02-22	Flying couch Golden Axe	1	Flying couch Golden Axe	Flying couch golden axe 5,5% 44 cl 	50	beer
+1373344	2024-02-22	Flying couch coitus infinitus	1	Flying couch coitus infinitus	Flying couch coitus infinitus	50	beer
+21220	2024-02-22	Founders All day	1	Founders All day	Founders All day IPA	35	beer
+76292	2024-02-22	Gamma Freak Wave	1	Gamma Freak Wave	Gamma Freak Wave IPA 44 cl  	50	beer
+7689389	2024-02-22	Gamma Snake Belly	1	Gamma Snake Belly	Gamma Snake Belly (Schwarze Rose collab)   	55	beer
+1111237	2024-02-22	Girardin	1	Girardin	Girardin, Black Label 5% Gueuze, 37,5 cl 	80	beer
+4157	2024-02-22	Hancock Gambrinus Dark	1	Hancock Gambrinus Dark	Hancock Gambrinus Dark 33cl	20	beer
+12	2024-02-22	Hancock Julebrygt	1	Hancock Julebrygt	Hancock Julebrygt 33cl	25	beer
+6	2024-02-22	Hefe Weizen Sanwald	1	Hefe Weizen Sanwald	Hefe Weizen Sanwald	30	beer
+7	2024-02-22	High Tide India pale ale Port sd Brewery	1	High Tide India pale ale Port sd Brewery	High Tide India pale ale Port sd Brewery	30	beer
+31000203	2024-02-22	Hoegaarden	1	Hoegaarden	Hoegaarden, Wit, Hvede	30	beer
+16	2024-02-22	Hoegaarden verboden vrucht	1	Hoegaarden verboden vrucht	Hoegaarden verboden vrucht 8.5% 33cl	40	beer
+9992	2024-02-22	Hop Gun Cepheus	1	Hop Gun Cepheus	Hop Gun, Cepheus 5,1%	45	beer
+1150033	2024-02-22	Karmeliet Tripel	1	Karmeliet Tripel	Karmeliet Tripel 33 cl	40	beer
+401	2024-02-22	Konig Ludwig Weiss Hell	1	Konig Ludwig Weiss Hell	Konig Ludwig Weiss Hell	35	beer
+1367444	2024-02-22	Lars Xmas Flying Couch	1	Lars Xmas Flying Couch	Lars Xmas Flying Couch 44cl	55	beer
+1061933	2024-02-22	Leffe blond	1	Leffe blond	Leffe blond 0 graden 0,0%  	30	af_beer
+1122125	2024-02-22	Lindemans Framboise	1	Lindemans Framboise	Lindemans Framboise	35	beer
+1122025	2024-02-22	Lindemans Kriek	1	Lindemans Kriek	Lindemans Kriek	30	beer
+15	2024-02-22	Lindemans Pesche	1	Lindemans Pesche	Lindemans Pesche 25cl	35	beer
+14	2024-02-22	Lindemans Strawberry	1	Lindemans Strawberry	Lindemans Strawberry 3.5% 25cl	35	beer
+1184133	2024-02-22	Mc Chouffe	1	Mc Chouffe	Mc Chouffe	40	beer
+8671045	2024-02-22	Menabrea Ambrata	1	Menabrea Ambrata	Menabrea Ambrata	25	beer
+90817	2024-02-22	Menabrea Rossa	1	Menabrea Rossa	Menabrea Rossa	25	beer
+1610	2024-02-22	Mors Jule Stout	1	Mors Jule Stout	Mors Jule Stout 33cl	20	beer
+1692044	2024-02-22	O/O 50/50 Citra/Ekuanot	1	O/O 50/50 Citra/Ekuanot	O/O 50/50: Citra/Ekuanot IPA   	50	beer
+1700533	2024-02-22	O/O Dalen Lager	1	O/O Dalen Lager	O/O Dalen Lager	35	beer
+1690334	2024-02-22	O/O Evergreen IPA	1	O/O Evergreen IPA	O/O Evergreen IPA	45	beer
+30249	2024-02-22	Paulaner Salvator	1	Paulaner Salvator	Paulaner Salvator, Dobbeltbock, 33cl	35	beer
+19	2024-02-22	Pepsi Max	1	Pepsi Max	Pepsi Max	5	soda
+1204233	2024-02-22	Pere Noel	1	Pere Noel	Pere Noel 7% 33cl	35	beer
+1034	2024-02-22	Rothaus Tannenzapfle 	1	Rothaus Tannenzapfle 	Rothaus Tannenzapfle 	25	beer
+21	2024-02-22	Royak Økologisk Pilsner	1	Royak Økologisk Pilsner	Royak Økologisk Pilsner	20	beer
+20	2024-02-22	Royal 0,0% Classic	1	Royal 0,0% Classic	Royal 0,0% Classic	5	af_beer
+4316	2024-02-22	Schneider Mein Alkoholfreies	1	Schneider Mein Alkoholfreies	Schneider, Mein Alkoholfreies, Alc Free Tap 3, 50  Tyskland,  	35	beer
+430043	2024-02-22	Schneider Meine Helle	1	Schneider Meine Helle	Schneider Meine Helle weisse 50cl	35	beer
+4304	2024-02-22	Schneider Unser Aventinus	1	Schneider Unser Aventinus	Schneider Unser Aventinus Tap 6, 50  	40	beer
+207925	2024-02-22	Somersby	1	Somersby	Somersby  Samlerabat -312.30	25	cider
+17	2024-02-22	Somersby  Blackberry	1	Somersby  Blackberry	Somersby  Blackberry	25	cider
+18	2024-02-22	Somersby  Elderflower & Lime	1	Somersby  Elderflower & Lime	Somersby  Elderflower & Lime	25	cider
+1165033	2024-02-22	St. Bernardus Pater	1	St. Bernardus Pater	St. Bernardus Pater	30	beer
+8	2024-02-22	Stowford press	1	Stowford press	Stowford press	30	beer
+1388544	2024-02-22	Stratoketcher	1	Stratoketcher	Stratoketcher 44 cl  	55	beer
+406	2024-02-22	Thisted Humle	1	Thisted Humle	Thisted Humle 33cl	25	beer
+10234	2024-02-22	Thisted Limfjords Porter	1	Thisted Limfjords Porter	Thisted Limfjords Porter 33cl	20	beer
+4567	2024-02-22	Tuborg Julebrygt	1	Tuborg Julebrygt	Tuborg Julebrygt 33cl	15	beer
+7836	2024-02-22	Vault city Strawberry Sundae   	1	Vault city Strawberry Sundae   	Vault city Strawberry Sundae   	45	beer
+1880150	2024-02-22	Vinohraka Pils 12	1	Vinohraka Pils 12	Vinohraka Pils 12	45	beer
+8204	2024-02-22	Vocation Jump For Passion Fruit	1	Vocation Jump For Passion Fruit	Vocation Jump For Passion Fruit 44cl	45	beer
+12051	2024-02-22	Vocation Toucan Tropic   	1	Vocation Toucan Tropic   	Vocation Toucan Tropic   	45	beer
+1072033	2024-02-22	Westmalle Dubbel	1	Westmalle Dubbel	Westmalle, Dubbel, , Belgien  	35	beer
+1072233	2024-02-22	Westmalle Extra	1	Westmalle Extra	Westmalle Extra 4,8%	30	beer
+1072133	2024-02-22	Westmalle tripel  	1	Westmalle tripel  	Westmalle tripel  Belgien  	35	beer
+1856233	2024-02-22	Wulle Vollbier Hell	1	Wulle Vollbier Hell	Wulle Vollbier Hell 33cl	35	beer
+31000022	2024-02-22	Ørbæk Fynsk Forar	1	Ørbæk Fynsk Forar	Ørbæk Fynsk Forar	30	beer
+31000023	2024-02-22	Ørbæk IPA 5%	1	Ørbæk IPA 5%	Ørbæk IPA 5%	30	beer
